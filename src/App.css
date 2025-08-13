@@ -1,8 +1,7 @@
-.app-container {
+.app-container{
     text-align: center;
-
+    margin: 50px;
 }
-
-h1 {
+h1{
     color: #333;
 }

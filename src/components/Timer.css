@@ -3,28 +3,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
-
 .timer-display {
     font-size: 2em;
     color: #333;
 }
-
 .timer-status {
     font-size: 1em;
     color: #666;
 }
-
 .timer-status.running {
     color: green;
 }
-
-.timer-status.pause {
+.timer-status.pause{
     color: red;
 }
 
-button {
+button{
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
@@ -33,15 +28,12 @@ button {
     margin: 0 5px;
     color: #fff;
 }
-
 button.start {
     background-color: #4CAF50;
 }
-
 button.pause {
     background-color: #FFA500;
 }
-
 button.reset {
     background-color: #f44336;
 }
